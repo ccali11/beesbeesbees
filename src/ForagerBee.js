@@ -1,5 +1,5 @@
 var ForagerBee = function() {
-  //Bee.call(this);
+  // Bee.call(this);
 };
 
 // Delegate prototype chain to Bee

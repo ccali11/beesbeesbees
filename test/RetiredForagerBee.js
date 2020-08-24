@@ -45,6 +45,7 @@ describe('RetiredForagerBee class functionality', function() {
   /*  New methods and properties  */
 
   it('should have an always winning `gamble` method that allows the bee to add a `treasure` to the `treasureChest`', function() {
+    debugger;
     retiredForager.gamble();
     retiredForager.gamble();
     expect(retiredForager.treasureChest).to.have.length(2);
