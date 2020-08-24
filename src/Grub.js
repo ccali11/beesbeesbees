@@ -3,4 +3,9 @@ var Grub = function() {
 };
 
 // Grub prototype properties and methods
-Grub.prototype.age = 0;
+Grub.prototype = {
+  age: 0,
+  color: 'pink',
+  food: 'jelly',
+  eat: function(){};
+}
